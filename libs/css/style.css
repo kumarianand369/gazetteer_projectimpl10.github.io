@@ -1,0 +1,328 @@
+/* PreLoader-*/
+
+#preloader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    z-index: 999;
+    display: grid;
+    width: 140px;
+    height: 140px;
+    margin: -65px 0 0 -65px;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: animate-preloader 2s linear infinite;
+    animation: animate-preloader 2s linear infinite;
+  }
+  
+  @-webkit-keyframes animate-preloader {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+    
+  
+  }
+/*map*/
+#map { 
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    bottom: 0px;
+
+}
+/*==========================================*/
+
+.blue-color {
+    color:blue;
+}
+
+.red-color {
+    color:red;
+}
+.green-color {
+color:green;
+}
+
+.orange-color {
+color:orange;
+}
+
+.brown-color {
+ color:brown;
+}
+
+/*==========================================*/
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    margin: 0;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-color: lightgray;
+}
+.form-group {
+	width: 200px;
+	min-width: 50px;
+	max-width: 200px;
+	top: 1vw;
+	margin: 0 auto;
+	z-index: 900;
+	position: relative;
+	text-align: center;
+}
+/*=========country info=============================*/
+
+#wiki{
+    background-color:#03ac13;
+}
+#info{
+    background-color:#87CEEB;
+}
+.blockquote-footer{
+    text-align: center;
+}
+
+
+.sourced{
+    color:#03ac13;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1em;
+
+}
+#summary{
+    font-size:small; 
+    padding:10px;
+} 
+
+/*========Images=======*/
+#img{
+    background-color:#87CEEB;
+   
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+/*--------Country images------*/
+.countryImages{
+    width: 700px;
+}
+/*========weather=======*/
+
+#weatherData{
+    background-color:#87CEEB;
+}
+
+/*========covid=======*/
+#coviddata{
+    background-color:#87CEEB;
+}
+
+/*========news=======*/
+#newsData{
+    background-color:#87CEEB;
+}
+#tableNews{
+    color: palegreen;
+    width: 100%;
+    border: 3;
+}
+#sourcedCell{
+    width: 80%;
+    word-break: break-all;
+    color: aqua;
+}
+#nextArticle{
+    background-color: #87CEEB;
+    color: black;
+}
+#articleUrl{
+    color:olive;
+}
+
+
+
+#contentCell{
+    text-align: left;   
+ }
+
+ /*---=====News======-----*/ 
+#articleImg{
+    bottom: 50px;
+    float: right; 
+    width:150px;
+    height: 200px;
+}
+.articleBtn{
+    display: inline-block;
+    width: 50%;
+}
+.wrap {
+    background-image: url("../icons/images/background-img.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.display {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.sea {
+    width: 100%;
+    padding: 0;
+    background: none;
+    border: none;
+    color: #f1f6f9;
+    font-size: 1.5em;
+    transition: all 0.5s ease-in-out;
+}
+
+.sea:hover {
+    color: #f5b461;
+}
+
+.sea:focus {
+    outline: #6bc5d7;
+}
+
+.sea-field:focus {
+    outline: #6bc5d7;
+}
+
+
+.header-large {
+    font-family: "Pacifico", cursive;
+    color: #f1f6f9;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+.description-large {
+    font-family: "Pacifico", cursive;
+    color: #f1f6f9;
+    font-size: 1.5em;
+}
+
+.date-large {
+    font-family: "Mali", cursive;
+    color: #f1f6f9;
+    font-size: 1em;
+}
+
+.conditions {
+    font-family: "Mali", cursive;
+    color: #f1f6f9;
+    font-size: 1em;
+}
+
+.temp-large {
+    font-family: "Mali", cursive;
+    color: #f1f6f9;
+    font-size: 1.5em;
+}
+
+.temp-btn {
+    background: none;
+    border: none;
+    color: #f1f6f9;
+    transition: all 0.5s ease-in-out;
+    font-family: "Mali", cursive;
+    cursor: none;
+}
+
+.active {
+    color: #f5b461;
+    font-family: "Mali", cursive;
+    font-size: 1.2em;
+    cursor: none;
+}
+
+.temp-btn:hover {
+    color: #f5b461;
+    cursor: default;
+}
+
+.temp-btn:focus {
+    outline: #6bc5d7;
+}
+
+.forecast-icon {
+    width: 50px;
+    height: auto;
+}
+
+.separator {
+    color: #f1f6f9;
+    font-size: 1em;
+}
+
+.small {
+    margin-top: 75px;
+    color: #f1f6f9;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.small a {
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(141, 41, 235);
+    transition: all 0.5s ease-in-out;
+}
+
+.small a:hover {
+    color: #fff676;
+}
+#cloudsicon{
+    width: 30px;
+    height: 30px;
+}
+
+.col-sm-6{
+    width: 5%;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .header-large {
+        font-size: 1.2em;
+    }
+    .temp-large {
+        font-size: 1.5em;
+    }
+    .description-large {
+        text-align: center;
+        font-size: 1em;
+    }
+    .conditions {
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .forcast-icon {
+        width: 50px;
+        height: auto;
+    }
+}
+
